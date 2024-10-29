@@ -7,7 +7,7 @@
 "stash": "git stash && git stash drop"
 },
 "dependencies": {
-"@adiwajshing/baileys": "5.0.0 ",
+"@whiskeysockets/baileys":"git+https://github.com/ayooh-us/Bailey-s.git",
 "@adiwajshing/keyed-db": "^0.2.4",
 "pino": "^7.0.5",
 "pm2": "^5.2.0",
