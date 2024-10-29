@@ -643,4 +643,4 @@ app.get("/", (req, res) => {
 app.listen(port, () => console.log(`Vajira Server listening on port http://localhost:${port}`));
 setTimeout(async() => {
   await connectToWA()
-}, 1000);
+}, 4000);
