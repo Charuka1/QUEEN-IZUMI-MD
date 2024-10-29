@@ -1,10 +1,9 @@
 {
 "name": "QUEEN-IZUMI-MD",    
 "version": "1.0.0",
-"scripts": {
 "start": "pm2 start index.js --deep-monitoring --attach --name QUEEN-IZUMI-MD",
 "stop": "pm2 stop QUEEN-IZUMI-MD",
-"restart": "git pull && npm stop && npm start",
+"restart": "pm2 restart QUEEN-IZUMI-MD",
 "stash": "git stash && git stash drop"
 },
 "dependencies": {
