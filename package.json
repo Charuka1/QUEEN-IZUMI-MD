@@ -1,6 +1,8 @@
 {
 "name": "QUEEN-IZUMI-MD",    
 "version": "1.0.0",
+  "scripts": {
+    
 "start": "pm2 start index.js --deep-monitoring --attach --name QUEEN-IZUMI-MD",
 "stop": "pm2 stop QUEEN-IZUMI-MD",
 "restart": "pm2 restart QUEEN-IZUMI-MD",
