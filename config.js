@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || 'youre session id',
+SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD=XENmQbqR#Yr2E8IKZU52A_6rWaOSooHUuKaUR6lM2CnXYW8CfJUg',
 POSTGRESQL_URL: process.env.POSTGRESQL_URL || 'postgres://vajiratech_user:oSIFl2xmSojMZ0rkzdd0g0W6msuVTpNN@dpg-cpd7fjv109ks73e5gtig-a.frankfurt-postgres.render.com/vajiratech',
 LANG: process.env.BOT_LANG || 'EN' ,
 PREFIX: process.env.PREFIX || '.',
